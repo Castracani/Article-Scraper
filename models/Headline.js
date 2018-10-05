@@ -1,7 +1,7 @@
-
-// Createing the headlineSchema with our schema class
+const mongoose = require("mongoose");
+// Creating the headlineSchema with our schema class
+const Schema = mongoose.Schema;
 const headlineSchema = new Schema({
-  
   headline: {
     type: String,
     required: true,
